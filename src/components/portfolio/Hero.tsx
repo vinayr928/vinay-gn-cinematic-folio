@@ -1,6 +1,6 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Download, Mail, Rocket } from "lucide-react";
+import { Mail, Rocket } from "lucide-react";
 import avatar from "@/assets/avatar.jpg";
 
 const words = ["Project Implementation Engineer", "ERP Consultant", "Implementation Specialist", "Technical Trainer", "Software Deployment Engineer", "Problem Solver"];
@@ -148,10 +148,6 @@ export function Hero() {
             <a href="#experience"
               className="hoverable group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[oklch(0.82_0.18_210)] to-[oklch(0.65_0.25_290)] px-6 py-3 text-sm font-semibold text-[oklch(0.12_0.03_275)] transition-shadow hover:shadow-[0_0_40px_oklch(0.65_0.25_290)]">
               <Rocket className="h-4 w-4" /> View My Journey
-            </a>
-            <a href="#" onClick={(e) => e.preventDefault()}
-              className="hoverable inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold hover:glow-cyan transition">
-              <Download className="h-4 w-4" /> Download Resume
             </a>
             <a href="#contact"
               className="hoverable inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold hover:bg-white/5 transition">
