@@ -170,8 +170,10 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full blur-3xl opacity-60"
               style={{ background: "radial-gradient(circle, oklch(0.65 0.25 290 / 0.6), transparent 70%)" }} />
             <div className="glass absolute inset-6 overflow-hidden rounded-full holo-shine">
-              <img src={avatar} alt="Vinay GN" width={768} height={768}
+              <img src={avatar} alt="Vinay GN — Project Implementation Engineer" width={600} height={800}
+                fetchPriority="high" decoding="async"
                 className="h-full w-full object-cover" />
+
             </div>
             {/* orbit ring */}
             <div className="absolute inset-0 animate-spin-slow rounded-full border border-dashed border-white/20" />
