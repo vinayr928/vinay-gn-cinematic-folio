@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { SectionHeading } from "./About";
-import { Linkedin, Github, Mail, MessageCircle, Send, Check } from "lucide-react";
+import { Linkedin, Mail, MessageCircle, Send, Check } from "lucide-react";
 
 export function Contact() {
   const [sent, setSent] = useState(false);
@@ -57,10 +57,9 @@ export function Contact() {
               <h3 className="font-semibold">Reach out directly</h3>
               <p className="mt-1 text-sm text-muted-foreground">I read every message. Typical reply in under 24 hours.</p>
               <div className="mt-6 grid grid-cols-2 gap-3">
-                <Social icon={Linkedin} label="LinkedIn" href="#" />
-                <Social icon={Github} label="GitHub" href="#" />
-                <Social icon={Mail} label="Email" href="mailto:hello@vinaygn.dev" />
-                <Social icon={MessageCircle} label="WhatsApp" href="#" />
+                <Social icon={Linkedin} label="LinkedIn" href="https://www.linkedin.com/in/vinay-g-n-096659172/" />
+                <Social icon={Mail} label="Email" href="mailto:writeforvinay@gmail.com" />
+                <Social icon={MessageCircle} label="WhatsApp" href="https://wa.me/917349466054" />
               </div>
             </div>
             <div className="glass rounded-3xl p-6">
