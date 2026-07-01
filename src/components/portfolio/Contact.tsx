@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { SectionHeading } from "./About";
-import { Linkedin, Github, Mail, MessageCircle, Send, Check } from "lucide-react";
+import { Linkedin, Mail, MessageCircle, Send, Check } from "lucide-react";
 
 export function Contact() {
   const [sent, setSent] = useState(false);
