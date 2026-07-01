@@ -31,9 +31,9 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 
 const facets = [
   { icon: GraduationCap, label: "Diploma in Computer Science" },
-  { icon: Stethoscope, label: "Healthcare Software Specialist" },
-  { icon: Cpu, label: "HL7 · Lab Machine Integration" },
-  { icon: HeartPulse, label: "ERP · Software Deployment · API" },
+  { icon: Cpu, label: "Full Stack Development Foundation" },
+  { icon: Stethoscope, label: "Healthcare Integration · HL7 · LIS" },
+  { icon: HeartPulse, label: "ERP Implementation · Training · Support" },
 ];
 
 export function About() {
@@ -54,7 +54,7 @@ export function About() {
   return (
     <section id="about" className="relative py-32">
       <div className="container mx-auto px-6">
-        <SectionHeading eyebrow="About" title={<>Engineer at the intersection of <span className="text-gradient">clinical systems</span> and code.</>} />
+        <SectionHeading eyebrow="About" title={<>Engineer bridging <span className="text-gradient">business, code and implementation</span>.</>} />
 
         <div className="mt-16 grid gap-10 lg:grid-cols-5">
           <motion.div
@@ -66,14 +66,13 @@ export function About() {
             className="glass lg:col-span-3 rounded-3xl p-8 transition-transform duration-200 will-change-transform"
           >
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm <span className="text-foreground font-medium">Vinay GN</span>, a Project Implementation
-              Engineer II focused on Healthcare IT. Over the last several years I've deployed hospital and lab
-              software across clinics and diagnostic centers — integrating HL7 message streams, connecting lab
-              analyzers, rolling out ERP modules, and training the humans who rely on them daily.
+              I'm <span className="text-foreground font-medium">Vinay GN</span> — a technology professional with
+              experience spanning software development, ERP implementation, healthcare integration, client
+              onboarding, technical support and enterprise software deployment.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              I care about the boring, invisible reliability: no dropped orders, no duplicated results, no
-              downtime during a busy morning shift.
+              My career has evolved across multiple industries, allowing me to combine technical expertise with
+              business understanding to deliver successful implementation projects.
             </p>
             <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
               {facets.map((f) => (

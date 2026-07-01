@@ -6,38 +6,52 @@ import { ChevronDown } from "lucide-react";
 const items = [
   {
     role: "Project Implementation Engineer II",
-    org: "Healthcare Software",
-    period: "Present",
+    org: "VMEdulife Software",
+    period: "May 2026 – Present",
     detail:
-      "Leading end-to-end deployment of hospital and lab software: HL7 interfaces, LIS/HIS configuration, analyzer integration, go-live and 24/7 support.",
-  },
-  {
-    role: "Senior Project Coordinator",
-    org: "Clinical IT",
-    period: "2 yrs",
-    detail:
-      "Coordinated multi-site rollouts across diagnostic centers, drove requirement analysis, timeline planning, and stakeholder training.",
+      "Driving Education ERP implementation and college ERP deployment — client onboarding, user training, software configuration, requirement analysis, technical support, product implementation, issue resolution and digital transformation.",
   },
   {
     role: "Lab Integration Specialist",
-    org: "Diagnostics",
-    period: "1.5 yrs",
+    org: "Bharishnu Tech + Drucare",
+    period: "Feb 2025 – May 2026",
     detail:
-      "Integrated 20+ lab analyzers (biochemistry, hematology, immunoassay) with LIS using serial, TCP and HL7 protocols via Mirth Connect.",
+      "Healthcare software integration: laboratory machine integration, HL7 communication, LIS connectivity, hospital software support, API integrations, interface troubleshooting and technical implementation.",
   },
   {
-    role: "ERP Implementation",
-    org: "Hospital ERP",
-    period: "1 yr",
+    role: "Project Coordinator · Core Master Trainer · ERP Financial Transactions",
+    org: "Machint Solutions",
+    period: "Mar 2024 – Feb 2025",
     detail:
-      "Rolled out ERP modules for inventory, billing, and pharmacy — mapping legacy processes into a unified digital workflow.",
+      "ERP solutions for cooperative societies — ERP implementation, financial transaction workflows, user training, project coordination, requirement gathering, client support and software deployment.",
   },
   {
-    role: "Sales & Customer Operations",
-    org: "SaaS Rollouts",
-    period: "1 yr",
+    role: "Cashier & APX",
+    org: "Sangeetha Mobiles",
+    period: "Mar 30, 2022 – Jun 5, 2023",
     detail:
-      "Pre-sales demos, requirement scoping, and post-sale operations partnering with clinicians and IT leads.",
+      "Billing operations, cash management, inventory support, customer service and store operations.",
+  },
+  {
+    role: "Sales Executive",
+    org: "Sangeetha Mobiles",
+    period: "Sep 20, 2021 – Mar 15, 2022",
+    detail:
+      "Customer engagement, product consultation, sales and relationship management.",
+  },
+  {
+    role: "Full Stack Developer",
+    org: "Elpis Systems",
+    period: "1 Year",
+    detail:
+      "Web application development, frontend and backend development, database management, bug fixing and software testing.",
+  },
+  {
+    role: "Diploma in Computer Science Engineering",
+    org: "Education",
+    period: "Foundation",
+    detail:
+      "Built a strong foundation in programming, software development, databases, networking and problem solving.",
   },
 ];
 

@@ -1,7 +1,7 @@
 import { SectionHeading } from "./About";
 import { motion } from "framer-motion";
 
-const tech = ["HL7", "Mirth", "Java", "SQL", "JS", "Git", "ERP", "LIS", "API", "HIS", "C++", "Postman"];
+const tech = ["HTML", "CSS", "JS", "Java", "SQL", "Git", "Postman", "VS Code", "Three.js", "React", "Tailwind", "HL7"];
 
 export function TechStack() {
   return (

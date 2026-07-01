@@ -1,31 +1,19 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "./About";
-import { Activity, Braces, Wrench, Briefcase } from "lucide-react";
+import { Braces, Briefcase } from "lucide-react";
 
 const groups = [
   {
-    key: "Healthcare",
-    icon: Activity,
-    color: "oklch(0.82 0.18 210)",
-    items: ["HL7", "LIS", "Hospital Management Systems", "Laboratory Integration"],
-  },
-  {
-    key: "Programming",
+    key: "Technical Skills",
     icon: Braces,
-    color: "oklch(0.65 0.25 290)",
-    items: ["Java", "C++", "HTML", "CSS", "JavaScript", "SQL"],
+    color: "oklch(0.82 0.18 210)",
+    items: ["ERP", "SQL", "HTML", "CSS", "JavaScript", "Java", "C++", "REST APIs", "HL7", "Database Management", "Software Testing"],
   },
   {
-    key: "Tools",
-    icon: Wrench,
-    color: "oklch(0.70 0.28 340)",
-    items: ["Git", "Postman", "VS Code", "Mirth Connect"],
-  },
-  {
-    key: "Business",
+    key: "Functional Skills",
     icon: Briefcase,
-    color: "oklch(0.78 0.15 160)",
-    items: ["ERP", "Client Training", "Software Deployment", "Requirement Analysis"],
+    color: "oklch(0.65 0.25 290)",
+    items: ["ERP Implementation", "Client Training", "Project Coordination", "Technical Support", "Software Deployment", "Product Configuration", "Business Analysis", "Requirement Gathering", "Troubleshooting", "User Acceptance Testing"],
   },
 ];
 

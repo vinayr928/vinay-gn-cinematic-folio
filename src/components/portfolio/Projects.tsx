@@ -5,34 +5,40 @@ import { X, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Healthcare Integration Hub",
-    tag: "HL7 · Mirth Connect",
+    title: "Education ERP Implementation",
+    tag: "Education · ERP",
     color: "oklch(0.82 0.18 210)",
-    desc: "Central HL7 routing layer that connects EMRs, LIS, and radiology systems across multiple hospital branches with real-time monitoring and retry logic.",
+    desc: "End-to-end rollout of an Education ERP for colleges — onboarding, configuration, training and go-live support across academic, admission and administration workflows.",
   },
   {
-    title: "ERP Implementation Rollout",
-    tag: "ERP · Multi-site",
+    title: "Healthcare Lab Integration",
+    tag: "HL7 · LIS",
     color: "oklch(0.65 0.25 290)",
-    desc: "Deployed a hospital ERP covering billing, inventory, and pharmacy across a chain of clinics — including data migration and staff training.",
+    desc: "Integrated laboratory analyzers with hospital LIS using HL7 messaging and API bridges, enabling automated bidirectional result flow and reducing manual entry.",
   },
   {
-    title: "Laboratory Automation",
-    tag: "LIS · Analyzer Interfaces",
+    title: "ERP Financial Transaction System",
+    tag: "ERP · Finance",
     color: "oklch(0.70 0.28 340)",
-    desc: "Automated bidirectional integration for 20+ lab analyzers via serial and TCP protocols, eliminating manual result entry and turnaround delays.",
+    desc: "Implemented financial transaction workflows for cooperative societies — ledger, receipts, payments and reconciliation modules with role-based access.",
   },
   {
-    title: "Hospital Software Deployment",
-    tag: "HIS · Go-live",
+    title: "College Management System",
+    tag: "Education · Deployment",
     color: "oklch(0.78 0.15 160)",
-    desc: "Managed full-stack HIS go-live for a 200-bed hospital — from server setup and network config to OPD, IPD, and pharmacy modules.",
+    desc: "Configured and deployed a College Management System covering admissions, attendance, examinations and reporting for multi-department institutions.",
   },
   {
-    title: "API Integration Platform",
-    tag: "REST · Webhooks",
+    title: "Laboratory Interface Integration",
+    tag: "Interfaces · API",
     color: "oklch(0.75 0.20 60)",
-    desc: "Designed and documented REST integrations connecting internal systems with insurance TPAs, payment gateways, and external labs.",
+    desc: "Designed interface layers between diagnostic devices and hospital software using HL7 and REST APIs, with troubleshooting and monitoring built in.",
+  },
+  {
+    title: "Client Training Programs",
+    tag: "Training · Enablement",
+    color: "oklch(0.72 0.22 30)",
+    desc: "Delivered structured user training programs as Core Master Trainer — user manuals, live sessions, UAT support and post-go-live handholding.",
   },
 ];
 

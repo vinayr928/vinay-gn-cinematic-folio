@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Download, Mail, Rocket } from "lucide-react";
 import avatar from "@/assets/avatar.jpg";
 
-const words = ["Healthcare Integration", "Software Implementation", "ERP Solutions", "Automation", "Problem Solver"];
+const words = ["Project Implementation Engineer", "ERP Consultant", "Implementation Specialist", "Technical Trainer", "Software Deployment Engineer", "Problem Solver"];
 
 function Typewriter() {
   const [i, setI] = useState(0);
@@ -134,28 +134,28 @@ export function Hero() {
             </span>
           </h1>
           <p className="mt-4 font-mono text-sm uppercase tracking-[0.2em] text-muted-foreground">
-            Healthcare Tech · HL7 · ERP · Lab Integration
+            ERP · Healthcare IT · Deployment · Training
           </p>
           <div className="mt-8 text-2xl font-medium sm:text-3xl">
-            I build&nbsp;<Typewriter />
+            <Typewriter />
           </div>
           <p className="mt-6 max-w-xl text-base text-muted-foreground">
-            I engineer reliable clinical software rollouts — bridging hospital systems, lab machines,
-            and ERPs into one seamless, automated workflow.
+            Transforming businesses through ERP implementation, software deployment,
+            technical consulting, and digital transformation.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-3">
-            <a href="#" onClick={(e) => e.preventDefault()}
+            <a href="#experience"
               className="hoverable group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[oklch(0.82_0.18_210)] to-[oklch(0.65_0.25_290)] px-6 py-3 text-sm font-semibold text-[oklch(0.12_0.03_275)] transition-shadow hover:shadow-[0_0_40px_oklch(0.65_0.25_290)]">
+              <Rocket className="h-4 w-4" /> View My Journey
+            </a>
+            <a href="#" onClick={(e) => e.preventDefault()}
+              className="hoverable inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold hover:glow-cyan transition">
               <Download className="h-4 w-4" /> Download Resume
             </a>
             <a href="#contact"
-              className="hoverable inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold hover:glow-cyan transition">
-              <Mail className="h-4 w-4" /> Contact Me
-            </a>
-            <a href="#projects"
               className="hoverable inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold hover:bg-white/5 transition">
-              <Rocket className="h-4 w-4" /> View Projects
+              <Mail className="h-4 w-4" /> Contact Me
             </a>
           </div>
         </motion.div>
